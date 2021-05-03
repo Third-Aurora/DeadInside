@@ -3,7 +3,7 @@
     "document_id": "rP9jGfg6G9E2ZA3SZeFO",
     "original_document_id": "HYcx5jlcUM4mUzMhCssm",
     "version": "27",
-    "lastChanged": "1620076530153",
+    "lastChanged": "1620077363389",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -150,6 +150,14 @@
                         "SceneController"
                     ],
                     [
+                        "Sounds",
+                        "close"
+                    ],
+                    [
+                        "Sounds",
+                        "open"
+                    ],
+                    [
                         "Textures"
                     ],
                     [
@@ -170,9 +178,9 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1620009825296786:812760",
-                    "1620026341849354:3007324",
-                    "1620066166458686:742667"
+                    "101:100",
+                    "1620026303347153:3001012",
+                    "1620026341849354:3007324"
                 ]
             ]
         },
@@ -221,6 +229,7 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "101:101",
                     "1620023091031958:2554512"
                 ]
             ]
@@ -407,6 +416,22 @@
                     "resId": "149",
                     "uid": "1620071401784269:1485196",
                     "name": "Files\/File199",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "150",
+                    "uid": "1620076929146112:2314822",
+                    "name": "Files\/File201.wav",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "155",
+                    "uid": "1620077316709555:2378926",
+                    "name": "Files\/File206.wav",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -621,6 +646,14 @@
                 {
                     "k": "200",
                     "v": "Files\/File200.lsmat"
+                },
+                {
+                    "k": "201",
+                    "v": "Files\/File201.wav"
+                },
+                {
+                    "k": "206",
+                    "v": "Files\/File206.wav"
                 }
             ]
         },
@@ -712,6 +745,18 @@
                     {
                         "k": "1115",
                         "v": "Materials\/eyes.lsmat"
+                    },
+                    {
+                        "k": "1116",
+                        "v": "Sounds"
+                    },
+                    {
+                        "k": "1117",
+                        "v": "Sounds\/close.wav"
+                    },
+                    {
+                        "k": "1122",
+                        "v": "Sounds\/open.wav"
                     }
                 ],
                 "hashes": [
@@ -1085,7 +1130,7 @@
                     },
                     {
                         "k": "1079",
-                        "v": "928d938daca760e87192a48109fee453"
+                        "v": "587dfa02848d1b302bd8fd0b2e9ae221"
                     },
                     {
                         "k": "1080",
@@ -1206,14 +1251,38 @@
                     {
                         "k": "1115",
                         "v": "7bdebd21080730dea9560f9cba4b3bc3"
+                    },
+                    {
+                        "k": "1117",
+                        "v": "817cfc88a19416e5f825e4fe1ea7e388"
+                    },
+                    {
+                        "k": "1118",
+                        "v": "513aebfb6f3088e888d4b684ca9793c5"
+                    },
+                    {
+                        "k": "1119",
+                        "v": "513aebfb6f3088e888d4b684ca9793c5"
+                    },
+                    {
+                        "k": "1120",
+                        "v": "4e6cfdaf0855d46ac3829c32ee021b29"
+                    },
+                    {
+                        "k": "1121",
+                        "v": "817cfc88a19416e5f825e4fe1ea7e388"
+                    },
+                    {
+                        "k": "1122",
+                        "v": "4e6cfdaf0855d46ac3829c32ee021b29"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-05-03T16:02:00",
+                        "lastModified": "2021-05-03T17:22:05",
                         "name": "Public",
-                        "hash": "978b01d86725226bae7fa5161766865b",
+                        "hash": "ea5072bb80ca808009c4bafecf172730",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -1296,6 +1365,35 @@
                             },
                             {
                                 "isFolder": "true",
+                                "lastModified": "2021-05-03T17:28:36",
+                                "name": "Sounds",
+                                "hash": "5e717368e60bb74853959108a0a80c78",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T17:27:58",
+                                        "name": "open.wav",
+                                        "hash": "4e6cfdaf0855d46ac3829c32ee021b29",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T17:21:42",
+                                        "name": "close.wav",
+                                        "hash": "817cfc88a19416e5f825e4fe1ea7e388",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T17:21:59",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
                                 "lastModified": "2021-05-03T15:14:55",
                                 "name": "Meshes",
                                 "hash": "0ba8b6b178dcb55826c45665bd08fe0b",
@@ -1332,15 +1430,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-03T15:15:17",
+                                "lastModified": "2021-05-03T17:25:48",
                                 "name": "Scripts",
-                                "hash": "e7034c2ae8c5a12216867030e93fe36b",
+                                "hash": "d0fb9e81ce4e28f188dcc172f1c4a04a",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-03T14:45:40",
+                                        "lastModified": "2021-05-03T17:25:48",
                                         "name": "SceneController.js",
-                                        "hash": "928d938daca760e87192a48109fee453",
+                                        "hash": "587dfa02848d1b302bd8fd0b2e9ae221",
                                         "children": ""
                                     },
                                     {
@@ -1865,6 +1963,47 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "1079",
                                 "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sounds",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1116",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "close",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "150",
+                                "dependency": "0",
+                                "uid": "1620076929146112:2314822",
+                                "fileId": "201",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1117",
+                                "source": "\/Users\/matthewhallberg\/Desktop\/close.wav",
+                                "additional": ""
+                            },
+                            {
+                                "name": "open",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "155",
+                                "dependency": "0",
+                                "uid": "1620077316709555:2378926",
+                                "fileId": "206",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1122",
+                                "source": "\/Users\/matthewhallberg\/Desktop\/FaceStuff\/open.wav",
                                 "additional": ""
                             }
                         ]

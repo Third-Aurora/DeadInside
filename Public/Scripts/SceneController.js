@@ -3,6 +3,8 @@
 //@input Component.RenderMeshVisual[] insides
 //@input Component.Camera picCam
 //@input Asset.Texture camTexture
+//@input Component.AudioComponent openAudio
+//@input Component.AudioComponent closeAudio
 
 script.createEvent("TouchStartEvent").bind(ToggleAction);
 
@@ -24,10 +26,12 @@ function ToggleAction(){
     if (isOpen){
         MoveItems(false);
         delayedClose.reset(.4);
+        script.closeAudio.play(1);
     } else {
         TakeSnapShots();
         OpenFace(true)
         MoveItems(true);
+        script.openAudio.play(1);
     }
     
     isOpen = !isOpen;

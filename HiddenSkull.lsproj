@@ -3,7 +3,7 @@
     "document_id": "rP9jGfg6G9E2ZA3SZeFO",
     "original_document_id": "HYcx5jlcUM4mUzMhCssm",
     "version": "27",
-    "lastChanged": "1620067909415",
+    "lastChanged": "1620076530153",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -31,76 +31,123 @@
             "collapsedList": [
                 [
                     [
+                        "Materials"
+                    ],
+                    [
+                        "Materials",
+                        "Occluder Legacy"
+                    ],
+                    [
+                        "Materials",
+                        "black"
+                    ],
+                    [
+                        "Materials",
+                        "eyes"
+                    ],
+                    [
+                        "Materials",
+                        "facePieces"
+                    ],
+                    [
+                        "Materials",
+                        "skull"
+                    ],
+                    [
+                        "Meshes"
+                    ],
+                    [
+                        "Meshes",
                         "FaceSplit"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "Animations"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "FaceSplit"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "Materials"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "Materials",
                         "Default OBJ"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "Meshes",
                         "Face Mesh"
                     ],
                     [
+                        "Meshes",
                         "FaceSplit",
                         "Meshes",
                         "Face Mesh 2"
                     ],
                     [
-                        "MoveItem"
-                    ],
-                    [
-                        "Occluder Legacy"
-                    ],
-                    [
-                        "SceneController"
-                    ],
-                    [
+                        "Meshes",
                         "Skull Low Poly"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Animations"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Materials"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Materials",
                         "Mat"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Meshes",
                         "Skull"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Meshes",
                         "jaw"
                     ],
                     [
+                        "Meshes",
                         "Skull Low Poly",
                         "Skull Low Poly"
                     ],
                     [
+                        "Meshes",
                         "Sphere"
+                    ],
+                    [
+                        "Meshes",
+                        "blackFaceMesh"
+                    ],
+                    [
+                        "Scripts"
+                    ],
+                    [
+                        "Scripts",
+                        "MoveItem"
+                    ],
+                    [
+                        "Scripts",
+                        "SceneController"
                     ],
                     [
                         "Textures"
@@ -111,31 +158,11 @@
                     ],
                     [
                         "Textures",
-                        "Face Mesh Texture"
-                    ],
-                    [
-                        "Textures",
-                        "MaterialParams"
-                    ],
-                    [
-                        "Textures",
-                        "Normal"
+                        "Screen Texture"
                     ],
                     [
                         "Textures",
                         "white"
-                    ],
-                    [
-                        "black"
-                    ],
-                    [
-                        "blackFaceMesh"
-                    ],
-                    [
-                        "facePieces"
-                    ],
-                    [
-                        "skull"
                     ]
                 ]
             ]
@@ -143,20 +170,19 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1620009825297028:812761",
-                    "1620024209401037:2710544",
-                    "1620026303344844:3000996",
-                    "1620026341849354:3007324"
+                    "1620009825296786:812760",
+                    "1620026341849354:3007324",
+                    "1620066166458686:742667"
                 ]
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "0e4128ab4939da26cf5fd7201dc2de78",
             "icon_path": "icon.png",
             "hints": [
                 "lens_hint_tap"
             ],
-            "lens": "HiddenSkull",
+            "lens": "Dead Inside",
             "applicability": "1",
             "lens_descriptors": ""
         },
@@ -338,30 +364,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "128",
-                    "uid": "1620023120304929:2559223",
-                    "name": "Files\/File175.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "131",
-                    "uid": "1620023168137667:2566390",
-                    "name": "Files\/File179.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "132",
-                    "uid": "1620023168141941:2566402",
-                    "name": "Files\/File181.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "135",
                     "uid": "1620023624982784:2631889",
                     "name": "Files\/File185",
@@ -389,6 +391,22 @@
                     "resId": "141",
                     "uid": "1620067718250201:984898",
                     "name": "Files\/File189",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "145",
+                    "uid": "1620069339108103:1211274",
+                    "name": "Screen Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "149",
+                    "uid": "1620071401784269:1485196",
+                    "name": "Files\/File199",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -421,11 +439,15 @@
                 "3": "1620022468230981:2475473",
                 "4": "1620022835041107:2522671",
                 "5": "1620024209401037:2710544",
-                "6": "1620026303344844:3000996"
+                "6": "1620026303344844:3000996",
+                "7": "1620072547669959:1657691",
+                "8": "1620072657278043:1674177",
+                "9": "1620072803990356:1694509",
+                "10": "1620072998257206:1721930"
             }
         },
         "LayerComponent": {
-            "nextLayerId": "3",
+            "nextLayerId": "4",
             "showOrthographicLayer": "true",
             "layersInfo": [
                 {
@@ -445,6 +467,12 @@
                     "layerName": "face",
                     "layerMask": "2",
                     "colorCode": "0"
+                },
+                {
+                    "layerId": "3",
+                    "layerName": "glow",
+                    "layerMask": "4",
+                    "colorCode": "1"
                 }
             ]
         },
@@ -563,30 +591,6 @@
                     "v": "Files\/File172.png"
                 },
                 {
-                    "k": "175",
-                    "v": "Files\/File175.jpg"
-                },
-                {
-                    "k": "176",
-                    "v": "Files\/File176.jpg"
-                },
-                {
-                    "k": "179",
-                    "v": "Files\/File179.png"
-                },
-                {
-                    "k": "180",
-                    "v": "Files\/File180.png"
-                },
-                {
-                    "k": "181",
-                    "v": "Files\/File181.png"
-                },
-                {
-                    "k": "182",
-                    "v": "Files\/File182.png"
-                },
-                {
                     "k": "185",
                     "v": "Files\/File185"
                 },
@@ -609,6 +613,14 @@
                 {
                     "k": "190",
                     "v": "Files\/File190.lsmat"
+                },
+                {
+                    "k": "199",
+                    "v": "Files\/File199"
+                },
+                {
+                    "k": "200",
+                    "v": "Files\/File200.lsmat"
                 }
             ]
         },
@@ -623,47 +635,43 @@
                 "pathes": [
                     {
                         "k": "990",
-                        "v": "facePieces.lsmat"
+                        "v": "Materials\/facePieces.lsmat"
                     },
                     {
                         "k": "992",
-                        "v": "FaceSplit.fbx"
+                        "v": "Meshes\/FaceSplit.fbx"
                     },
                     {
                         "k": "993",
-                        "v": "..\/AdditionalFiles\/FaceSplit\/Materials"
+                        "v": "..\/AdditionalFiles\/Meshes\/FaceSplit\/Materials"
                     },
                     {
                         "k": "994",
-                        "v": "..\/AdditionalFiles\/FaceSplit\/Materials\/Default OBJ.lsmat"
+                        "v": "..\/AdditionalFiles\/Meshes\/FaceSplit\/Materials\/Default OBJ.lsmat"
                     },
                     {
                         "k": "1079",
-                        "v": "SceneController.js"
+                        "v": "Scripts\/SceneController.js"
                     },
                     {
                         "k": "1081",
-                        "v": "MoveItem.js"
+                        "v": "Scripts\/MoveItem.js"
                     },
                     {
                         "k": "1085",
-                        "v": "Skull Low Poly.fbx"
+                        "v": "Meshes\/Skull Low Poly.fbx"
                     },
                     {
                         "k": "1086",
-                        "v": "..\/AdditionalFiles\/Skull Low Poly\/Materials"
+                        "v": "..\/AdditionalFiles\/Meshes\/Skull Low Poly\/Materials"
                     },
                     {
                         "k": "1087",
-                        "v": "..\/AdditionalFiles\/Skull Low Poly\/Materials\/Mat.lsmat"
+                        "v": "..\/AdditionalFiles\/Meshes\/Skull Low Poly\/Materials\/Mat.lsmat"
                     },
                     {
                         "k": "1088",
                         "v": "Textures"
-                    },
-                    {
-                        "k": "1089",
-                        "v": "Textures\/Base.png"
                     },
                     {
                         "k": "1090",
@@ -671,31 +679,39 @@
                     },
                     {
                         "k": "1091",
-                        "v": "skull.lsmat"
-                    },
-                    {
-                        "k": "1092",
-                        "v": "Textures\/Face Mesh Texture.jpg"
-                    },
-                    {
-                        "k": "1094",
-                        "v": "Textures\/MaterialParams.png"
-                    },
-                    {
-                        "k": "1095",
-                        "v": "Textures\/Normal.png"
+                        "v": "Materials\/skull.lsmat"
                     },
                     {
                         "k": "1098",
-                        "v": "black.lsmat"
+                        "v": "Materials\/black.lsmat"
                     },
                     {
                         "k": "1099",
-                        "v": "Sphere.mesh"
+                        "v": "Meshes\/Sphere.mesh"
                     },
                     {
                         "k": "1100",
-                        "v": "Occluder Legacy.lsmat"
+                        "v": "Materials\/Occluder Legacy.lsmat"
+                    },
+                    {
+                        "k": "1102",
+                        "v": "Materials"
+                    },
+                    {
+                        "k": "1103",
+                        "v": "Meshes"
+                    },
+                    {
+                        "k": "1104",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "1114",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "1115",
+                        "v": "Materials\/eyes.lsmat"
                     }
                 ],
                 "hashes": [
@@ -793,7 +809,7 @@
                     },
                     {
                         "k": "990",
-                        "v": "193a039c7cff6441c263448aedfb0a42"
+                        "v": "6ac8b26f2ac7da7c9a5e7e8682d3c765"
                     },
                     {
                         "k": "991",
@@ -805,7 +821,7 @@
                     },
                     {
                         "k": "994",
-                        "v": "3b255406f927cbf47d7c346ea16ebf5d"
+                        "v": "06370a8a72c3c9c9a072c3c432ddbbbc"
                     },
                     {
                         "k": "997",
@@ -1093,7 +1109,7 @@
                     },
                     {
                         "k": "1087",
-                        "v": "00b06bc09920fb6d51fc695500a569e8"
+                        "v": "ca06a90de8ed8bc4fa4202e57f755cb6"
                     },
                     {
                         "k": "1089",
@@ -1105,7 +1121,7 @@
                     },
                     {
                         "k": "1091",
-                        "v": "7772c491a10d54ef28985a44bbfc7f72"
+                        "v": "69933ed8400f2df901841dc4ceafb3fd"
                     },
                     {
                         "k": "1092",
@@ -1133,7 +1149,7 @@
                     },
                     {
                         "k": "1098",
-                        "v": "8592bda51440c352398c4b849b55e5f5"
+                        "v": "07cad006a3e3e8493c2975cd0e2455aa"
                     },
                     {
                         "k": "1099",
@@ -1141,52 +1157,75 @@
                     },
                     {
                         "k": "1100",
-                        "v": "dd354040cad986fb96491fe82a47de75"
+                        "v": "00193990ead98918466cc06be963c1b1"
                     },
                     {
                         "k": "1101",
-                        "v": "f1436d8d79c37d6cb9e6b0a4f2710151"
+                        "v": "f8c8127f48a033c0a0f850c04bfed14d"
+                    },
+                    {
+                        "k": "1105",
+                        "v": "a276acaed7d65e4c1b56181771677a77"
+                    },
+                    {
+                        "k": "1106",
+                        "v": "24c94ee860b194061cdaa91eea54db29"
+                    },
+                    {
+                        "k": "1107",
+                        "v": "bcb1a295a3110dfd12934b3da0ebc49c"
+                    },
+                    {
+                        "k": "1108",
+                        "v": "bcb1a295a3110dfd12934b3da0ebc49c"
+                    },
+                    {
+                        "k": "1109",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "1110",
+                        "v": "c1b22adb808b801d453498c35c300b9a"
+                    },
+                    {
+                        "k": "1111",
+                        "v": "a276acaed7d65e4c1b56181771677a77"
+                    },
+                    {
+                        "k": "1112",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "1113",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "1114",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "1115",
+                        "v": "7bdebd21080730dea9560f9cba4b3bc3"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-05-03T14:48:38",
+                        "lastModified": "2021-05-03T16:02:00",
                         "name": "Public",
-                        "hash": "ae67b6242371f574cd63f9ff14caded2",
+                        "hash": "978b01d86725226bae7fa5161766865b",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-05-03T02:26:08",
+                                "lastModified": "2021-05-03T15:46:36",
                                 "name": "Textures",
-                                "hash": "5cde8f68f60d0e2cd568a2b8945b8dbf",
+                                "hash": "360d3ab32f92eb6f1b1f20535fce7fb6",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-03T02:25:20",
-                                        "name": "Face Mesh Texture.jpg",
-                                        "hash": "c1b22adb808b801d453498c35c300b9a",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-05-03T02:26:08",
-                                        "name": "MaterialParams.png",
-                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-05-03T02:18:49",
+                                        "lastModified": "2021-05-03T15:10:42",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-05-03T02:26:08",
-                                        "name": "Normal.png",
-                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
                                     },
                                     {
@@ -1206,67 +1245,119 @@
                                 ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2019-03-04T11:24:12",
-                                "name": "Skull Low Poly.fbx",
-                                "hash": "75103d7d20602707a1f60378df8557f4",
-                                "children": ""
+                                "isFolder": "true",
+                                "lastModified": "2021-05-03T16:09:03",
+                                "name": "Materials",
+                                "hash": "238022e06a7461930621ee3ffdf5704e",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T16:08:05",
+                                        "name": "eyes.lsmat",
+                                        "hash": "7bdebd21080730dea9560f9cba4b3bc3",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T16:09:03",
+                                        "name": "skull.lsmat",
+                                        "hash": "69933ed8400f2df901841dc4ceafb3fd",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:15:01",
+                                        "name": "facePieces.lsmat",
+                                        "hash": "6ac8b26f2ac7da7c9a5e7e8682d3c765",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:15:01",
+                                        "name": "black.lsmat",
+                                        "hash": "07cad006a3e3e8493c2975cd0e2455aa",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:15:01",
+                                        "name": "Occluder Legacy.lsmat",
+                                        "hash": "00193990ead98918466cc06be963c1b1",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:14:09",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T00:13:10",
-                                "name": "FaceSplit.fbx",
-                                "hash": "b2f7a568a13a079a9327b7798254bbb3",
-                                "children": ""
+                                "isFolder": "true",
+                                "lastModified": "2021-05-03T15:14:55",
+                                "name": "Meshes",
+                                "hash": "0ba8b6b178dcb55826c45665bd08fe0b",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-03-04T11:24:12",
+                                        "name": "Skull Low Poly.fbx",
+                                        "hash": "75103d7d20602707a1f60378df8557f4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T00:13:10",
+                                        "name": "FaceSplit.fbx",
+                                        "hash": "b2f7a568a13a079a9327b7798254bbb3",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T14:47:53",
+                                        "name": "Sphere.mesh",
+                                        "hash": "ffbce66d7c12d942b13208740e9d0059",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:14:42",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T14:45:40",
-                                "name": "SceneController.js",
-                                "hash": "928d938daca760e87192a48109fee453",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T04:16:36",
-                                "name": "skull.lsmat",
-                                "hash": "7772c491a10d54ef28985a44bbfc7f72",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T14:20:21",
-                                "name": "MoveItem.js",
-                                "hash": "159310669245995ce2f930db4065ce70",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T14:22:20",
-                                "name": "facePieces.lsmat",
-                                "hash": "193a039c7cff6441c263448aedfb0a42",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T03:39:19",
-                                "name": "black.lsmat",
-                                "hash": "8592bda51440c352398c4b849b55e5f5",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T14:47:53",
-                                "name": "Sphere.mesh",
-                                "hash": "ffbce66d7c12d942b13208740e9d0059",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-05-03T14:48:38",
-                                "name": "Occluder Legacy.lsmat",
-                                "hash": "dd354040cad986fb96491fe82a47de75",
-                                "children": ""
+                                "isFolder": "true",
+                                "lastModified": "2021-05-03T15:15:17",
+                                "name": "Scripts",
+                                "hash": "e7034c2ae8c5a12216867030e93fe36b",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T14:45:40",
+                                        "name": "SceneController.js",
+                                        "hash": "928d938daca760e87192a48109fee453",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T14:20:21",
+                                        "name": "MoveItem.js",
+                                        "hash": "159310669245995ce2f930db4065ce70",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-05-03T15:15:06",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
                                 "isFolder": "false",
@@ -1324,281 +1415,6 @@
                         "additional": ""
                     },
                     {
-                        "name": "facePieces",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "40",
-                        "dependency": "0",
-                        "uid": "1620011971271500:1089948",
-                        "fileId": "56",
-                        "originalId": "57",
-                        "publicId": "990",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
-                        "name": "FaceSplit",
-                        "type": "18",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "2",
-                        "uid": "-1:-1",
-                        "fileId": "72",
-                        "originalId": "18446744073709551615",
-                        "publicId": "992",
-                        "source": "\/Users\/matthewhallberg\/Desktop\/FaceStuff\/FaceSplit.fbx",
-                        "additional": {
-                            "materialMapping": [
-                                {
-                                    "k": "Default OBJ",
-                                    "v": "1620017022697823:1707247"
-                                }
-                            ]
-                        },
-                        "resources": [
-                            {
-                                "name": "Meshes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Face Mesh",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "44",
-                                        "dependency": "1",
-                                        "uid": "1620017022682414:1707223",
-                                        "fileId": "65",
-                                        "originalId": "66",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Face Mesh 2",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "45",
-                                        "dependency": "1",
-                                        "uid": "1620017022693749:1707237",
-                                        "fileId": "67",
-                                        "originalId": "68",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Animations",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": ""
-                            },
-                            {
-                                "name": "Materials",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "993",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Default OBJ",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "46",
-                                        "dependency": "0",
-                                        "uid": "1620017022697823:1707247",
-                                        "fileId": "69",
-                                        "originalId": "70",
-                                        "publicId": "994",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "FaceSplit",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "47",
-                                "dependency": "1",
-                                "uid": "1620017022725119:1707371",
-                                "fileId": "71",
-                                "originalId": "73",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
-                        "name": "SceneController",
-                        "type": "4",
-                        "subtype": "0",
-                        "resourceId": "113",
-                        "dependency": "0",
-                        "uid": "1620018149717586:1868056",
-                        "fileId": "148",
-                        "originalId": "18446744073709551615",
-                        "publicId": "1079",
-                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                        "additional": ""
-                    },
-                    {
-                        "name": "MoveItem",
-                        "type": "4",
-                        "subtype": "0",
-                        "resourceId": "115",
-                        "dependency": "0",
-                        "uid": "1620019120789575:2032755",
-                        "fileId": "150",
-                        "originalId": "18446744073709551615",
-                        "publicId": "1081",
-                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                        "additional": ""
-                    },
-                    {
-                        "name": "Skull Low Poly",
-                        "type": "18",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "2",
-                        "uid": "-1:-1",
-                        "fileId": "165",
-                        "originalId": "18446744073709551615",
-                        "publicId": "1085",
-                        "source": "\/Users\/matthewhallberg\/Desktop\/FaceStuff\/Skull Low Poly\/Skull Low Poly.fbx",
-                        "additional": {
-                            "materialMapping": [
-                                {
-                                    "k": "Mat",
-                                    "v": "1620022431137739:2468690"
-                                }
-                            ]
-                        },
-                        "resources": [
-                            {
-                                "name": "Meshes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Skull",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "119",
-                                        "dependency": "1",
-                                        "uid": "1620022431116503:2468662",
-                                        "fileId": "158",
-                                        "originalId": "159",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "jaw",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "120",
-                                        "dependency": "1",
-                                        "uid": "1620022431127367:2468676",
-                                        "fileId": "160",
-                                        "originalId": "161",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Animations",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": ""
-                            },
-                            {
-                                "name": "Materials",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "1086",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Mat",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "121",
-                                        "dependency": "0",
-                                        "uid": "1620022431137739:2468690",
-                                        "fileId": "162",
-                                        "originalId": "163",
-                                        "publicId": "1087",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Skull Low Poly",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "122",
-                                "dependency": "1",
-                                "uid": "1620022431167427:2468803",
-                                "fileId": "164",
-                                "originalId": "166",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "Textures",
                         "type": "0",
                         "subtype": "-1",
@@ -1611,19 +1427,6 @@
                         "source": "",
                         "additional": "",
                         "resources": [
-                            {
-                                "name": "Base",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "124",
-                                "dependency": "0",
-                                "uid": "1620022729479719:2508578",
-                                "fileId": "169",
-                                "originalId": "170",
-                                "publicId": "1089",
-                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            },
                             {
                                 "name": "white",
                                 "type": "1",
@@ -1638,113 +1441,433 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Face Mesh Texture",
+                                "name": "Screen Texture",
                                 "type": "1",
-                                "subtype": "9",
-                                "resourceId": "128",
+                                "subtype": "16",
+                                "resourceId": "145",
                                 "dependency": "0",
-                                "uid": "1620023120304929:2559223",
-                                "fileId": "175",
-                                "originalId": "176",
-                                "publicId": "1092",
-                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "uid": "1620069339108103:1211274",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
                                 "additional": ""
                             },
                             {
-                                "name": "MaterialParams",
+                                "name": "Base",
                                 "type": "1",
                                 "subtype": "9",
-                                "resourceId": "131",
+                                "resourceId": "124",
                                 "dependency": "0",
-                                "uid": "1620023168137667:2566390",
-                                "fileId": "179",
-                                "originalId": "180",
-                                "publicId": "1094",
-                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Normal",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "132",
-                                "dependency": "0",
-                                "uid": "1620023168141941:2566402",
-                                "fileId": "181",
-                                "originalId": "182",
-                                "publicId": "1095",
+                                "uid": "1620022729479719:2508578",
+                                "fileId": "169",
+                                "originalId": "170",
+                                "publicId": "1114",
                                 "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
                         ]
                     },
                     {
-                        "name": "skull",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "123",
+                        "name": "Materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1620022729451626:2508536",
-                        "fileId": "167",
-                        "originalId": "168",
-                        "publicId": "1091",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
-                        "name": "black",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "135",
-                        "dependency": "0",
-                        "uid": "1620023624982784:2631889",
-                        "fileId": "185",
-                        "originalId": "186",
-                        "publicId": "1098",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
-                        "name": "blackFaceMesh",
-                        "type": "3",
-                        "subtype": "2",
-                        "resourceId": "139",
-                        "dependency": "0",
-                        "uid": "1620025004239198:2814507",
+                        "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "18446744073709551615",
+                        "publicId": "1102",
                         "source": "",
-                        "additional": {
-                            "externalFaceMeshID": "4294967295",
-                            "externalFaceWtihSkull": "false"
-                        }
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Occluder Legacy",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "141",
+                                "dependency": "0",
+                                "uid": "1620067718250201:984898",
+                                "fileId": "189",
+                                "originalId": "190",
+                                "publicId": "1100",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "black",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "135",
+                                "dependency": "0",
+                                "uid": "1620023624982784:2631889",
+                                "fileId": "185",
+                                "originalId": "186",
+                                "publicId": "1098",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "skull",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "123",
+                                "dependency": "0",
+                                "uid": "1620022729451626:2508536",
+                                "fileId": "167",
+                                "originalId": "168",
+                                "publicId": "1091",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "facePieces",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "40",
+                                "dependency": "0",
+                                "uid": "1620011971271500:1089948",
+                                "fileId": "56",
+                                "originalId": "57",
+                                "publicId": "990",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "eyes",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "149",
+                                "dependency": "0",
+                                "uid": "1620071401784269:1485196",
+                                "fileId": "199",
+                                "originalId": "200",
+                                "publicId": "1115",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
                     },
                     {
-                        "name": "Sphere",
-                        "type": "3",
-                        "subtype": "0",
-                        "resourceId": "140",
+                        "name": "Meshes",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1620067673143119:977080",
-                        "fileId": "187",
-                        "originalId": "188",
-                        "publicId": "1099",
-                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-iGewBM\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                        "additional": ""
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1103",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Sphere",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "140",
+                                "dependency": "0",
+                                "uid": "1620067673143119:977080",
+                                "fileId": "187",
+                                "originalId": "188",
+                                "publicId": "1099",
+                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-iGewBM\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                "additional": ""
+                            },
+                            {
+                                "name": "blackFaceMesh",
+                                "type": "3",
+                                "subtype": "2",
+                                "resourceId": "139",
+                                "dependency": "0",
+                                "uid": "1620025004239198:2814507",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": {
+                                    "externalFaceMeshID": "4294967295",
+                                    "externalFaceWtihSkull": "true"
+                                }
+                            },
+                            {
+                                "name": "Skull Low Poly",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "165",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1085",
+                                "source": "\/Users\/matthewhallberg\/Desktop\/FaceStuff\/Skull Low Poly\/Skull Low Poly.fbx",
+                                "additional": {
+                                    "materialMapping": [
+                                        {
+                                            "k": "Mat",
+                                            "v": "1620022431137739:2468690"
+                                        }
+                                    ]
+                                },
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Skull",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "119",
+                                                "dependency": "1",
+                                                "uid": "1620022431116503:2468662",
+                                                "fileId": "158",
+                                                "originalId": "159",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "jaw",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "120",
+                                                "dependency": "1",
+                                                "uid": "1620022431127367:2468676",
+                                                "fileId": "160",
+                                                "originalId": "161",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "Materials",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "1086",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Mat",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "121",
+                                                "dependency": "0",
+                                                "uid": "1620022431137739:2468690",
+                                                "fileId": "162",
+                                                "originalId": "163",
+                                                "publicId": "1087",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Skull Low Poly",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "122",
+                                        "dependency": "1",
+                                        "uid": "1620022431167427:2468803",
+                                        "fileId": "164",
+                                        "originalId": "166",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "FaceSplit",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "72",
+                                "originalId": "18446744073709551615",
+                                "publicId": "992",
+                                "source": "\/Users\/matthewhallberg\/Desktop\/FaceStuff\/FaceSplit.fbx",
+                                "additional": {
+                                    "materialMapping": [
+                                        {
+                                            "k": "Default OBJ",
+                                            "v": "1620017022697823:1707247"
+                                        }
+                                    ]
+                                },
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Face Mesh",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "44",
+                                                "dependency": "1",
+                                                "uid": "1620017022682414:1707223",
+                                                "fileId": "65",
+                                                "originalId": "66",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Face Mesh 2",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "45",
+                                                "dependency": "1",
+                                                "uid": "1620017022693749:1707237",
+                                                "fileId": "67",
+                                                "originalId": "68",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "Materials",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "993",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Default OBJ",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "46",
+                                                "dependency": "0",
+                                                "uid": "1620017022697823:1707247",
+                                                "fileId": "69",
+                                                "originalId": "70",
+                                                "publicId": "994",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "FaceSplit",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "47",
+                                        "dependency": "1",
+                                        "uid": "1620017022725119:1707371",
+                                        "fileId": "71",
+                                        "originalId": "73",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                        "name": "Occluder Legacy",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "141",
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1620067718250201:984898",
-                        "fileId": "189",
-                        "originalId": "190",
-                        "publicId": "1100",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1104",
                         "source": "",
-                        "additional": ""
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "MoveItem",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "115",
+                                "dependency": "0",
+                                "uid": "1620019120789575:2032755",
+                                "fileId": "150",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1081",
+                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "SceneController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "113",
+                                "dependency": "0",
+                                "uid": "1620018149717586:1868056",
+                                "fileId": "148",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1079",
+                                "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-OuHzYV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
